@@ -6,22 +6,22 @@
 </head>
 <script src="script.js"></script>
 <body>
-<center><H1>COVID-19</H1>
+<center><H1 class="heading">COVID-19</H1>
 <form name="myform">
 	<table>
 		<tr>
 			<td>
-            <p><H4><b>Full Name:</b></H4><input type = "text" id="Name" name = "name" maxlength="25" placeholder="Name"value="" ><br>
+            <p><H4 class="heading"><b>Full Name:</b></H4><input type = "text" id="Name" name = "name" maxlength="25" placeholder="Name"value="" ><br>
 	        </td>
 	    </tr> 
 	    <tr>
 	    	<td>
-            <p><H4><b>Age:</b></H4><input type = "number" id="Age" placeholder="Age"name = "age" maxlength="3" value=""><br>
+            <p><H4 class="heading"><b>Age:</b></H4><input type = "number" id="Age" placeholder="Age"name = "age" maxlength="3" value=""><br>
             </td>
         </tr>
         <tr>
         	<td>
-          <p><H4><b>Gender:</b></H4>
+          <p><H4 class="heading"><b>Gender:</b></H4>
            <input type="radio"  id="Gender" value="male" name="Gender" checked>
            <label for="Gender">Male</label>
            <input type="radio" id="Gender" value="female" name="Gender">
@@ -32,7 +32,7 @@
         </tr>
         <tr>
         	<td>
-            <p><H4><b>Symptoms You Have:</b></H4>
+            <p><H4 class="heading"><b>Symptoms You Have:</b></H4>
                   <input type="checkbox" id="Symptoms" value="Fever" name="Symptoms">
 		          <label for="Symptoms"> Fever</label><br>
                   <input type="checkbox" id="Symptoms"   value="throat pain" name="Symptoms">
@@ -47,18 +47,18 @@
 		</tr>          
         <tr>
         	<td>
-            <p><b>Address:</b><textarea rows="2" cols="50" name="Address" value="Address"></textarea>
+            <p class="heading"><b>Address:</b><textarea rows="2" cols="50" name="Address" value="Address"></textarea>
             </td>	
 	    </tr>
 	    <tr>
 	    	<td>
-                <nobr><label><b>Pincode:</b></label>
+                <nobr><label class="heading"><b>Pincode:</b></label>
                     <input type="number" name="Pincode" placeholder="Pincode"value="" maxlength="6"><br>
             </td>
         </tr> 
         <tr>
         	<td>            
-              <p><label for="district"><h4><b>Choose your District</b></h4></label><select name="district">
+              <p><label for="district"><h4 class="heading"><b>Choose your District</b></h4></label><select name="district">
 	                <option value="Thiruvananthapuram">Thiruvananthapuram</option>
 	                <option value="Kollam">Kollam</option>
 					<option value="Pathanamthitta">Pathanamthitta</option>
