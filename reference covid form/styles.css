@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body > table{
     width: 100%;
 }
@@ -10,7 +13,7 @@ table.list{
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 3px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
