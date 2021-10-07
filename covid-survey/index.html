@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid-19 surevy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">COVID-19 Survey Form</h1>
+    <p id="description" class="description text-center">
+      Thank you for taking the time to report your COVID-19 status.
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for "email">Email</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your email"
+             required
+             />
+     </div>
+     <div class="form-group">
+       <label id="number-label" for="number"
+              >Age<span class="clue"(optional)</span></label>
+       <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+              />
+    </div>
+    <div class="form-group">
+      <p>Which option best describes your current COVID-19 status?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current status</option>
+        <option value="confirmed-positive">Confirmed positive</option>
+        <option value="confirmed-negative">Confirmed negative</option>
+        <option value="assumed-positive">Assumed positive</option>
+        <option value="assumed-negative">Assumed negative</option>
+        <option value="uncertain">Uncertain</option>
+      </select>
+    </div>
+        
+      <div class="form-group">
+        <p>Have you been in contact with someone who has confirmed positive for COVID-19?</p>
+        <label>
+          <input 
+                 name="contact"
+                 value="Yes"
+                 type="radio"
+                 class="input-radio"
+                 />Yes</label>
+        <label>
+          <input
+                 name="contact"
+                 value="No"
+                 type="radio"
+                 class="input-radio" checked
+                 />No</label>
+        <label>
+          <input
+                 name="contact"
+                 value="Maybe"
+                 type="radio"
+                 class="input-radio"
+                 />Maybe</label>
+    </div>
+    
+    <div class="form-group">
+      <p>Are you comfortable talking with your friends and family about your COVID-19 status?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select answer</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>Where do you receive your information concerning COVID-19?</p>
+      <span class="clue">(Check all that apply)</span>
+      </p>
+    
+    <label>
+      <input
+             name="updates"
+             value="Facebook"
+             type="checkbox"
+             class="input-checkbox"
+             />Facebook</label>
+    <label>
+      <input
+             name="updates"
+             value="Instagram"
+             type="checkbox"
+             class="input-checkbox"
+             />Instagram</label>
+    <label>
+      <input
+             name="updates"
+             value="Twitter"
+             type="checkbox"
+             class="input-checkbox"
+             />Twitter</label>
+    <label>
+      <input
+             name="updates"
+             value="News publications"
+             type="checkbox"
+             class="input-checkbox"
+             />News publications</label>
+    <label>
+      <input
+             name="updates"
+             value="Television"
+             type="checkbox"
+             class="input-checkbox"
+             />Television</label>
+    <label>
+      <input
+             name="updates"
+             value="City Meetups"
+             type="checkbox"
+             class="input-checkbox"
+             />City Meetups</label>
+    <label>
+      <input
+             name="updates"
+             value="Other"
+             type="checkbox"
+             class="input-checkbox"
+             />Other</label>
+    </div>
+  
+  <div class="form-group">
+    <p>Any other comments you would like to mention?</p>
+    <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here"
+              ></textarea>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" id="submit" class="submit-button">
+      Submit
+    </button>
+  </div>
+  </form>
+</div>
+</body>
+</html>
