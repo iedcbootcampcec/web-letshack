@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body > table{
+    width: 100%;
+}
+body {
+    background: url(https://quincy-network.s3.ca-central-1.amazonaws.com/wp-content/uploads/sites/9/2020/12/COVID-19-VACCINE-GENERIC-BLUE-BACKGROUND-860x484.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+.container{
+    max-width:500px;
+    height: auto;
+    background: rgba(255, 255, 255,0.25);
+    box-shadow: 0 8px 32px 0 rgba(65, 65, 68, 0.37);
+    backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin:80px  auto;
+
+
+}
+/* tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+} */
+
+input[type=text], input[type=number] {
+    
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: transparent;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 15%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+p > textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+}
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
