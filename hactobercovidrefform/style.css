@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body > table{
+    width: 100%;
+}
+body{
+    background-color: #47e293;
+    margin: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+   
+   
+}
+H1{
+
+    width: 360px;
+    height: 60px;
+    padding-top: 10px;
+    background-color:#4141c8;
+    border-radius: 4px;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+    
+}
+
+td, th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 10%;
+    background-color: #4141c8;
+    color: #000;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+select{
+    width:35%;
+    padding:6px;
+}
+textarea{
+    width:50%;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
